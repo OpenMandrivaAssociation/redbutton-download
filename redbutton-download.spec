@@ -8,6 +8,8 @@ Source:         redbutton-download-%{version}.tar.gz
 URL:            http://redbutton.sourceforge.net/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires: 	zlib1-devel
+
 %description
 This package provides a download utility for MHEG5, which is used to make
 user interface on TVs.
