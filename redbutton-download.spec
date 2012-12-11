@@ -34,3 +34,19 @@ install -m 755 rb-download %buildroot%_bindir
 %defattr(-,root,root)
 %_bindir/rb-download
 
+
+
+%changelog
+* Wed Dec 01 2010 Funda Wang <fwang@mandriva.org> 20090727-2mdv2011.0
++ Revision: 604378
+- rebuild for new zlib
+
+* Sun Nov 29 2009 Olivier Faurax <ofaurax@mandriva.org> 20090727-1mdv2010.1
++ Revision: 471592
+- missing buildrequires
+- import redbutton-download
+
+
+* Sun Nov 29 2009 Olivier Faurax <olivier.faurax@laposte.net> 20090727-1mdv2009.1
+- Initial package
+
