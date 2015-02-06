@@ -1,6 +1,6 @@
 Name:           redbutton-download
 Version:        20090727
-Release:        %mkrel 2
+Release:        3
 Group:          Development/Other 
 License:        GPLv2+
 Summary:        Redbutton download for MHEG5 content
