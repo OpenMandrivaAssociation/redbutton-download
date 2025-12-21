@@ -8,6 +8,7 @@ Source:         redbutton-download-%{version}.tar.gz
 URL:            https://redbutton.sourceforge.net/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	make
 BuildRequires: 	zlib-devel
 
 %description
